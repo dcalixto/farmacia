@@ -1,99 +1,185 @@
-<nav
-  class="navbar navbar-expand-lg navbar-dark navbar-theme fixed-top p-0"
-  style="
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(255, 255, 255, 0.15);
-  "
->
-  <div class="container px-3">
-    <a class="navbar-brand font-weight-normal ls-1" href="/">
-      <img src="../assets/img/netjapa.svg" alt="" /> </a
-    ><button
-      class="navbar-toggler collapsed"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a
-            class="nav-link "
-    
-            href="/contact"
-           
-          >
-          Contato</a
-          >
-       
-        </li>
-
-
-     <li class="nav-item">
-          <a
-            class="nav-link "
-         
-            href="/services"
-      
-          >
-          Serviços
-        </a
-          >
-    
-        </li>
-     <li class="nav-item">
-          <a
-            class="nav-link "
-         
-            href="#"
-      
-          >
-          Tecnologia
-        </a
-          >
-    
-        </li>
-       
-   
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--
-<header class="site-header"  style="background-color: #e3262e;">
-  <div class="container ">
-      <div
-      class="ui pointing menu stackable "
-      role="navigation"
-      aria-label="Main menu"
-    >
-    <h1 class="logo ">
-        <a href="{{ "/" | relative_url }}">
-        
-        </a>
-      </h1>
  
-
-
-   <div class="right menu navigation">
-    {% include navigation.html navigation=site.data.navigation %} 
- 
-  </div>
-  <div class="hamburger">
-    <span class="hamburger-bun"></span>
-    <span class="hamburger-patty"></span>
-    <span class="hamburger-bun"></span>
-  </div>
-
-  </div>
-    </div>
-
+      <div id="page" class="common-home">
+         <div id="page-preloader" class="">
+            <div class="preloader"></div>
+         </div>
   
-</header>-->
+         <header>
+            <div class="top-line">
+               <div class="homebuilder clearfix header-nav-block">
+                  <div class="tm-container container ">
+                     <div class="tm-inner">
+                        <div class="row row-level-1 ">
+                           <div class="row-inner  clearfix">
+                              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 ">
+                                 <div class="col-inner text-center-xs">
+                                    <div class="box-phones">
+                                       <span>Telefones:</span> 
+                                       <a href="callto:8001230045">(11) 999</a>; <a href="callto:8001230046"> (21) 9999</a>
+                                    </div>
+                                  
+                                 </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 ">
+                                 <div class="col-inner pull-right-md">
+                                    <div class="box-comment">
+                                       Bem vindo!
+                                    </div>
+                                    <div class="box-nav">
+                                  
+                                       <nav id="top-links" class="nav toggle-wrap">
+                                          <a class="toggle fa fa-cog" href="#"></a>
+                                          <ul class="toggle_cont">
+                                             <li class="toggle-wrap">
+                                              
+                                                <ul class="toggle_cont toggle_cont__right">
+                                                   <li><a href="/">Registrar</a></li>
+                                                   <li><a href="/">Carrinho</a></li>
+                                                   <li><a href="/">Checkout</a></li>
+                                                </ul>
+                                             </li>
+                                          </ul>
+                                       </nav>
+                                       <a class="btn-wishlist" href="/" id="wishlist-total"><span>Lista de desejos (0)</span>
+                                       </a>
+                                       <a href="/">Entrar</a>
+                                    </div>
+                            
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="homebuilder clearfix header-logo-block">
+                  <div class="tm-container container ">
+                     <div class="tm-inner">
+                        <div class="row row-level-1 ">
+                           <div class="row-inner  clearfix">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                 <div class="col-inner ">
+                                    <h1 class="logo pull-left">
+                                       <a href="{{ "/" | relative_url }}">
 
-<!-- end of Header section -->
+
+
+                                       <img   src="{{ site.baseurl }}/assets/img/farmamlogo.png" title="Pharmacy Online" alt="Pharmacy Online" class="img-responsive">
+                                       </a>
+                                    </h1>
+                                    <div class="box-cart pull-right">
+                                       <div id="cart" class="cart toggle-wrap">
+                                       <i class="fas fa-shopping-cart"></i>
+
+                                          <button type="button" data-loading-text="Loading..." class="toggle">
+                                     
+                                          <strong>Carrinho</strong>
+                                          <span id="cart-total" class="cart-total">0 item(s) - R$0.00</span>
+                                          <span id="cart-total2" class="cart-total2">0</span>
+                                          </button>
+                                          <ul class="pull-right toggle_cont">
+                                             <li>
+                                                <p class="text-center">Carinho - vazio!</p>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div id="search" class="search">
+                                       <input type="text" name="search" value="" placeholder="Search entire store here">
+                                       <button type="button" class=" btn-success">Buscar</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="stuck" class="mid-line" style="">
+               <div class="homebuilder clearfix ">
+                  <div class="tm-container container ">
+                     <div class="tm-inner">
+                        <div class="row row-level-1 ">
+                           <div class="row-inner  clearfix">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                 <div class="col-inner ">
+                                    <div class="megamenu">
+                                       <ul class="sf-menu sf-js-enabled sf-arrows">
+                                          <li>
+                                             <a href="/medicamentos" data-letters="Baby &amp; Child"><span>Medicamentos</span></a>
+                                          </li>
+                                          <li>
+                                             <a href="genericos" data-letters="Sexual health"><span>Genericos</span></a>
+                                          </li>
+                                          <li class="sf-with-mega">
+                                             <a href="/beleza" data-letters="Home medicine" class="sf-with-ul"><span>Beleza e Higiene</span></a>
+                                             <ul class="sf-mega" style="display: none;">
+                                                <li class="sf-mega_row" style="opacity: 0;">
+                                                   <div class="sf-mega_section" style="width: 33.3%">
+                                                      <ul>
+                                                         <li class="submenu_title">
+                                                            <a href="/vitamins">Vitaminas e suplementos</a>
+                                                         </li>
+                                                         <li>
+                                                            <a href="/">xxx</a>
+                                                         </li>
+                                                         <li>
+                                                            <a href="/">vv</a>
+                                                         </li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="sf-mega_section" style="width: 33.3%">
+                                                      <ul>
+                                                         <li class="submenu_title">
+                                                            <a href="/">dddd</a>
+                                                         </li>
+                                                         <li>
+                                                            <a href="/">ddd</a>
+                                                         </li>
+                                                         <li>
+                                                            <a href="/">Shop </a>
+                                                         </li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="sf-mega_section" style="width: 33.3%">
+                                                      <ul>
+                                                         <li class="submenu_title">
+                                                            <a href="/">sssss</a>
+                                                         </li>
+                                                         <li>
+                                                            <a href="/">Esssss</a>
+                                                         </li>
+                                                      </ul>
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li>
+                                             <a href="/suplementos" data-letters="Diet &amp; Nutrition"><span>Vitaminas e suplementos</span></a>
+                                          </li>
+                                          <li>
+                                             <a href="/" data-letters="Personal care"><span>Pxxx</span></a>
+                                          </li>
+                                          <li>
+                                             <a href="/" data-letters="Beauty"><span>xxx</span></a>
+                                          </li>
+                                          <li>
+                                             <a href="/" data-letters="Fitness &amp; vitamins"><span>Fitness &amp; vitamins</span></a>
+                                          </li>
+                                       </ul>
+                                    </div>
+                       
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+
+
+

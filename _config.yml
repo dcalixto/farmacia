@@ -1,16 +1,15 @@
 # Basic settings
-url: "https://www.netjapa.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.farman.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 
-description: "Tenha um site profissional e personalizado para você ou 
-para sua empresa com a NETJAPA.COM. Criamos sites, Wordpress, loja virtual e apps. Venha - Paraty"
+description: "FARMAN sua Farmácia Online 24 horas. Medicamentos, remédios genéricos, dermocosméticos, 
+itens de cuidado diário, produtos para crianças e muito mais"
 
-tagline: "Criar site, desenvolvimento de site,  Wordpress, app android, site, 
- aplicativo, e-commerce, loja virtual, Paraty, Paraty-RJ, Costa Verde, NETJAPA.COM"
+tagline: ""
 
 
-title: "Criar Site Profissional, Wordpress, Loja Virtual e App"
+title: ""
 timezone: America/Sao_Paulo
 lang: pt-br
 # Build settings
